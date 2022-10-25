@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-menu {
+    @apply border-t border-gray-600 duration-300 hover:shadow-lg hover:shadow-gray-600 hover:bg-black hover:text-white py-3 
+}
+
+.button-menu-reverse {
+    @apply border-t border-gray-600 duration-300 hover:shadow-lg hover:shadow-gray-600 bg-black hover:bg-white text-white hover:text-black py-3 
+}
+
+.fire {
+    @apply bg-orange-500 font-bold capitalize text-white w-full
+}
+
+.fighting {
+    @apply bg-orange-700 font-bold capitalize text-white
+}
+
+.water {
+    @apply bg-blue-500 font-bold capitalize text-white
+}
+
+.bug {
+    @apply bg-lime-800 font-bold capitalize text-white
+}
+
+.flying {
+    @apply bg-gradient-to-r from-slate-500 to-blue-500 font-bold capitalize text-white
+}
+
+.electric {
+    @apply bg-yellow-400 font-bold capitalize text-black
+}
+
+.normal {
+    @apply bg-gray-600 font-bold capitalize text-white
+}
+
+.dark {
+    @apply bg-gray-400 font-bold capitalize text-white
+}
+
+.dragon {
+    @apply bg-gradient-to-r from-red-500 to-blue-500 font-bold capitalize text-white
+}
+
+.fairy {
+    @apply bg-pink-400 font-bold capitalize text-black
+}
+
+.psychic {
+    @apply bg-pink-500 font-bold capitalize text-white
+}
+
+.ice {
+    @apply bg-gradient-to-r from-white to-blue-500 font-bold capitalize text-black
+}
+
+.steel {
+    @apply bg-neutral-600 font-bold capitalize text-white
+}
+
+.rock {
+    @apply bg-amber-800 font-bold capitalize text-white
+}
+
+.ground {
+    @apply bg-gradient-to-r from-yellow-300 to-amber-600 font-bold capitalize text-black
+}
+
+.grass {
+    @apply bg-lime-600 font-bold capitalize text-white
+}
+
+.poison {
+    @apply bg-violet-800 font-bold capitalize text-white
+}
+
+.ghost {
+    @apply bg-purple-600 font-bold capitalize text-white
+}
+
+.button-more {
+    @apply w-full text-center bg-red-600 py-2 text-xl font-bold text-white hover:bg-black duration-300
+}
